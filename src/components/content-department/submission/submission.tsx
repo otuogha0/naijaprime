@@ -90,12 +90,9 @@ const Submission: React.FC = () => {
       <div className="font-manrope my-5 px-8">
         <PendingCount />
         <div className="grid grid-cols-5 items-center gap-2 cardCon-scroll-container">
-          {/* {!yesterdayMovies ? yesterdayMovies?.map((data:any) => ( */}
             <div className="bg-[#D9D9D9]">
               <Cards cardsData={cardsData} /> : 
             </div>
-          {/* )) : <div style={{ display:"grid", placeItems: "center", color: "#fff"}}><p>No movies at the moment</p></div> */}
-          {/* } */}
         </div>
       </div>
     </div>
